@@ -1,0 +1,12 @@
+{
+    "name": "cat/tst-sandbox-client",
+    "description": "php sandbox client",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {"Tst\\Calc\\": "src/Tst/Calc"}
+    },
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
